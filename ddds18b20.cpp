@@ -34,6 +34,7 @@ DDDS18B20Val DDDS18B20::getValue(){
         ret.tempC = tempC;
         ret.tempF = tempF;
         ret.success = true;
+        ret.errorMsg = "";
     }
 
     return ret;
@@ -67,6 +68,7 @@ DDDS18B20Val DDDS18B20::getValueBus(DeviceAddress probe, bool first){
         ret.tempC = tempC;
         ret.tempF = tempF;
         ret.success = true;
+        ret.errorMsg = "";
     }
 
     return ret;
